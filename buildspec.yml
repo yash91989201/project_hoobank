@@ -13,7 +13,7 @@ phases:
 
 artifacts:
   files:
-    - "dist/**/*"
+    - "dist/*"
   discard-paths: yes
 
 cache:
