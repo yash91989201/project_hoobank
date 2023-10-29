@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 1
+    commands:
+      - npm install
+
+  build:
+    commands:
+      - npm run build
+
+artifacts:
+  files:
+    - "**/*"
+    # Include all files and directories in the build artifacts.
+
+cache:
+  paths:
+    - node_modules
+    # Cache the node_modules directory to speed up future builds.
