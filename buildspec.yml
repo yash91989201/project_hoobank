@@ -15,7 +15,7 @@ artifacts:
   files:
     - "**/*"
     # Include all files and directories in the build artifacts.
-  build-directory: "static-react-website-new/dist"
+  build-directory: "/dist"
 cache:
   paths:
     - node_modules
