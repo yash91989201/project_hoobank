@@ -17,7 +17,7 @@ artifacts:
     - "./dist/index.html"
     - "./dist/assets/"
     # Include all files and directories in the build artifacts.
-  base-directory: "/"
+  base-directory: "project_hoobank/"
   discard-paths: yes
 cache:
   paths:
