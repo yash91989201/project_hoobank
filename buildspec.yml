@@ -13,7 +13,7 @@ phases:
 
 artifacts:
   files:
-    - "**/*"
+    - "static-react-website-new/dist/*"
     # Include all files and directories in the build artifacts.
 
 cache:
