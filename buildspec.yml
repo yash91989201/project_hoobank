@@ -13,7 +13,9 @@ phases:
 
 artifacts:
   files:
-    - "./dist/*"
+    - "./dist/hoobank.svg"
+    - "./dist/index.html"
+    - "./dist/assets/"
     # Include all files and directories in the build artifacts.
   base-directory: "/"
   discard-paths: yes
