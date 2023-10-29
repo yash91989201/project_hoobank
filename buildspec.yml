@@ -13,12 +13,10 @@ phases:
 
 artifacts:
   files:
-    - "./dist/hoobank.svg"
-    - "./dist/index.html"
-    - "./dist/assets/"
-    # Include all files and directories in the build artifacts.
-  base-directory: "project_hoobank/"
+    - "*"
   discard-paths: yes
+  base-directory: "dist"
+
 cache:
   paths:
     - node_modules
